@@ -2,7 +2,12 @@ import React, { Component } from "react"
 
 class ListOfNames extends Component {
   render() {
-    var input = ["Post Malone", "Drake"]
+    var input = [
+      "Post Malone",
+      "Drake",
+      "Panic at the Disco",
+      "XXXTENTACION (rip)"
+    ]
     var namesList = input.map((item, index) => <li key={index}>{item}</li>)
     return (
       <div>
